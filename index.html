@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personal Portofolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 
-<body>
+<body class="body">
 
 
     <div class="header">
@@ -18,9 +19,9 @@
                 <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="">Services</a></li>
-                    <li><a href="">Portofolio</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portofolio">Portofolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -32,7 +33,7 @@
                 <p>FullStack Developer</p>
                 <button type="button" href="" download>Download CV</button>
             </div>
-           <!--  <div class="my-img">
+            <!--  <div class="my-img">
 
             </div> -->
         </div>
@@ -40,12 +41,12 @@
 
     </header>
     <main>
-       <!--  This is for about section -->
+        <!--  This is for about section -->
         <section id="about">
             <div class="container">
                 <div class="row">
                     <div class="about-col-1">
-<img src="images/kalai.jpg" alt="">
+                        <img src="images/IMG_E2703-nHGKfuGd5-transformed.jpg" alt="">
                     </div>
                     <div class="about-col-2">
                         <h1 class="sub-title">ABOUT ME</h1>
@@ -57,83 +58,146 @@
                         </div>
 
                         <div class="qual-contents">
-                            <div id="education" class=" tab-content active-content" >
-                            <ul>
-                                <li><span>BE-Computer Scrience and Engineering</span><br>At Annai college of Engineering and Technology in kumbakonam --2025</li>
-                                <li><span>Full Stack Development (MERN Stack)</span><br>At livewire instution in Mayiladuthurai  --2025</li>
-                                <li><span>Higher Secondary(Bio-Maths)</span><br>At Kittapa Higher Secondary School in Mayiladuthurai --2021</li>
-                            </ul>
-                        </div>
-                        <div id="skills" class=" tab-content " >
-                            <ul>
-                            <li><span>MERN stack</span><br>For FullStack web Development</li>
-                            <li><span></span></li>
-                            <li><span></span></li>
-                        </ul>
-                        </div>
-                        <div id="experience" class=" tab-content " >
-                            <ul>
-                                <li><span></span></li>
-                                <li><span></span></li>
-                                <li><span></span></li>
-                            </ul>
-                        </div>
+                            <div id="education" class=" tab-content active-content">
+                                <ul>
+                                    <li><span>BE-Computer Scrience and Engineering</span><br>At Annai college of
+                                        Engineering and Technology in kumbakonam --2025</li>
+                                    <li><span>Full Stack Development (MERN Stack)</span><br>At livewire instution in
+                                        Mayiladuthurai --2025</li>
+                                    <li><span>Higher Secondary(Bio-Maths)</span><br>At Kittapa Higher Secondary School
+                                        in Mayiladuthurai --2021</li>
+                                </ul>
+                            </div>
+                            <div id="skills" class=" tab-content ">
+                                <ul>
+                                    <li><span>MERN stack</span><br>For FullStack web Development</li>
+                                    <li><span></span></li>
+                                    <li><span></span></li>
+                                </ul>
+                            </div>
+                            <div id="experience" class=" tab-content ">
+                                <ul>
+                                    <li><span></span></li>
+                                    <li><span></span></li>
+                                    <li><span></span></li>
+                                </ul>
+                            </div>
                         </div>
 
                     </div>
                 </div>
             </div>
         </section>
-       <!--  This is for services -->
-         <section id="services" class="service-section">
-<div class="container">
-    <h1 class="sub-title">MY SERVICES</h1>
-    <div class="services-list">
-        <div>
-            <h2>Web Design</h2>
-            <p>flsdhfosddhflkdshf</p>
-            <a href="">Learn More</a>
-        </div>
-        <div>
-            <h2>App Design</h2>
-            <p>flsdhfosddhflkdshf</p>
-            <a href="">Learn More</a>
-        </div>
-        <div>
-            <h2>graphic design</h2>
-            <p>flsdhfosddhflkdshf</p>
-            <a href="">Learn More</a>
-        </div>
-    </div>
+        <!--  This is for services -->
+        <section id="services" class="service-section">
+            <div class="container">
+                <h1 class="sub-title">MY SERVICES</h1>
+                <div class="services-list">
+                    <div>
+                        <h2>Web Design</h2>
+                        <p>flsdhfosddhflkdshf</p>
+                        <a href="">Learn More</a>
+                    </div>
+                    <div>
+                        <h2>App Design</h2>
+                        <p>flsdhfosddhflkdshf</p>
+                        <a href="">Learn More</a>
+                    </div>
+                    <div>
+                        <h2>graphic design</h2>
+                        <p>flsdhfosddhflkdshf</p>
+                        <a href="">Learn More</a>
+                    </div>
 
-</div>
-         </section>
-         <!-- ----------portfolio---------- -->
-        <section id="portofolio">
-        <div class="container">
-            <h1 class="sub-title">MY WORKS</h1>
-            <div class="work-list">
-            <div class="work">
-                <img src="images/kalai.jpg" alt="">
-                <div class="layer">
-                    <h3>Social Media</h3>
-                    <p>ksdjfsdkjfhsdkjbasiufhdkdjfn</p>
-                    <a href="">L</a>
                 </div>
+
             </div>
-            <div class="work">
-                <img src="" alt="">
-            </div>
-            <div class="work">
-                <img src="" alt="">
-            </div>
-        </div>
-        </div>
         </section>
+        <!-- ----------portfolio---------- -->
+        <section id="portofolio">
+            <div class="container">
+                <h1 class="sub-title">MY WORKS</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/kalai.jpg" alt="">
+                        <div class="layer">
+                            <h3>Social Media</h3>
+                            <p>ksdjfsdkjfhsdkjbasiufhdkdjfn</p>
+                            <a href="">L</a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="" alt="">
+                        <div class="layer">
+                            <h3>Social Media</h3>
+                            <p>ksdjfsdkjfhsdkjbasiufhdkdjfn</p>
+                            <a href="">L</a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="" alt="">
+                        <div class="layer">
+                            <h3>Social Media</h3>
+                            <p>ksdjfsdkjfhsdkjbasiufhdkdjfn</p>
+                            <a href="">L</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn  btn-outline-danger seem-btn d-block" href="" type="button">See More</button>
+            </div>
+        </section>
+        <!-- ---------contact Section----------- -->
+
+        <section id="contact">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class=" col-sm contact-left">
+                        <h2 class="sub-title">Contack Me</h2>
+                        <p >hprabha@gmail.com</p>
+                        <p>8925205831</p>
+                        <div class="icons">
+                            <a href=""></a>
+                            <a href=""></a>
+                            <a href=""></a>
+                            <a href=""></a>
+                            <a href=""></a>
+                        </div>
+                    </div>
+                    <div class=" col-md contact-right">
+                        <form action="">
+                            <div class=" container-fluid p-2 my-3">
+                               
+                                    <div class="form-group">
+                                        <input type="text" class="form-control p-2 mb-3 " name="" id="" placeholder="Enter your name">
+
+                                    </div>
+                                
+                                <div class="form-group">
+                                    <input type="email" class="form-control p-2 mb-3 "placeholder="Enter your email" required>
+                                </div>
+                                <div class="form-group">
+                                   <textarea name="" id="" class="form-control p-2 mb-3 w-100" placeholder="Write your comments hear..."></textarea>
+                                </div>
+                                <input class="btn btn-danger w-50 mx-auto d-block mt-5" id="c-submit" type="submit" value="SEND">
+                                
+                            </div>
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
     </main>
-    <script src="main.js" >
-       
-    </script>
+    <footer class="bg-dark">
+        <h5 class="text-center p-3">all rights are reserved</h5>
+
+    </footer>
+    <script src="js/main.js"> </script>
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
