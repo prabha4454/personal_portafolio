@@ -8,17 +8,20 @@
     background-color: rgb(7, 7, 7);
     color: rgb(159, 158, 158);
 }
-.header{
-   /*  background-image: url(images/kalai.jpg);
+/* .header{
+    background-image: url(images/kalai.jpg);
     height: 100vh;
     width: 100vh;
  background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; */
+    background-position: center;
    
-}
+} */
 .container{
     padding: 20px 10%;
+}
+.header{
+   
 }
 nav{
     display: flex;
@@ -68,7 +71,7 @@ nav ul li a:hover::after{
   
 }
 .header-text{
- 
+
     font-size: 30px;
    span{
     color: rgb(251, 13, 13);
@@ -79,10 +82,11 @@ nav ul li a:hover::after{
    color: white;
    font-size: 80px;
    }
+   
    button{
     padding: 12px 3rem;
     border-radius: 8px;
-    background-color: rgb(6, 5, 5);
+    background-color: rgb(0, 0, 0);
     font-size: 18px;
     margin: 20px;
     font-weight: 500;
@@ -95,6 +99,7 @@ nav ul li a:hover::after{
     cursor: pointer;
     box-shadow: 0 0 5px red;
    }
+
 }
 .header-section{
     display: flex;
@@ -105,6 +110,19 @@ nav ul li a:hover::after{
     align-items: center;
     width: 100%;
     height: 100vh;
+    background-image: url(images/header-bg.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+   
+    background-position-y:top;
+    background-position-x: right;
+    transition: 0.5s  ;
+  
+    
+ 
+    
+    
+
 }
 /* .my-img{
     height: 20rem;
@@ -292,9 +310,7 @@ nav ul li a:hover::after{
 
 /* -------contact section ------- */
 
-#contact{
- 
-}
+
 .row{
    
     flex-wrap: wrap;
@@ -303,14 +319,40 @@ nav ul li a:hover::after{
 .contact-left{
     min-width: 6rem;
     p{
-        font-size: 18px;
+        font-size: 20px;
         text-align: center;
+        margin-top: 1rem;
+        i{
+            color: #ff004f;
+            font-size: 30px;
+            margin-right: 10px;
+            
+    
+        }
     }
-    a{
-        display: inline;
-    }
+    
+   
 
+}
+.icons{
+    display: flex;
+   justify-content: center;
+   
+}
+.icons a{
+     
+    font-size: 50px;
+    font-weight: 500;
+    color: #ff004f;
+    margin: 1rem;
+  
 }
 .contact-right{
     min-width: 10rem;
+    input{
+        background-color: #a6a2a2;
+    }
+    textarea{
+        background-color: #a6a2a2;
+    }
 }
