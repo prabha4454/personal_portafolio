@@ -145,18 +145,25 @@ nav ul li a:hover::after{
 
 .about-col-1{
     flex-basis: 35%;
+    margin: auto;
     img{
         width: 100%;
         border-radius: 15px;
     }
+  
 }
 .about-col-2{
+    padding:10px;
     flex-basis: 60%;
+  
+  
     
 }
 .qualification{
     display: flex;
-   margin: 20px 0 40px;
+   margin: 20px 0 40px ;
+  
+
    
 }
 .sub-title{
@@ -238,6 +245,9 @@ nav ul li a:hover::after{
     font-size: 12px;
     margin-top: 20px;
     display: inline-block;
+}
+.services-list div p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .services-list div:hover{
     background-color: rgb(100, 10, 20);
